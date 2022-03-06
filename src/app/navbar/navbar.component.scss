@@ -5,7 +5,7 @@
 .nav-link {
     font-weight: 600;
     font-family: 'Comic Neue', cursive;
-    color: #808080;
+    color: #000000;
     text-decoration: none;
     padding: 5px !important;
 }
@@ -18,7 +18,8 @@
 }
 
 .nav-active-item {
-   border: 1px solid #808080;
+   border: 1px solid #000000;
+   border-radius: 5px;
 }
 
 nav {
