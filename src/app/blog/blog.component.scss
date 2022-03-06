@@ -1,0 +1,20 @@
+._cover-img {
+    height: 200px;
+    width: 100%;
+}
+
+/* ._single-blog {
+    border: 1px double #880088;
+    padding: 0px !important;
+} */
+
+._single-blog:hover {
+    -webkit-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    -moz-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+}
+
+._blog-content {
+    padding: 10px;
+    text-align: center;
+}

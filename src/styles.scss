@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+$color-gray: #808080;
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+html { height: 100%; margin: 0px !important; padding: 0px !important; }
+body { clear: both; margin: 0px !important; padding: 0px !important; font-family: 'Comic Neue', cursive; height: 100% !important; }
+
+a, a:hover {
+    text-decoration: none;
+    color: $color-black;
+}
+
+input:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -1,0 +1,32 @@
+.nav-item {
+    margin: 0px 30px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-family: 'Comic Neue', cursive;
+    color: #808080;
+    text-decoration: none;
+    padding: 5px !important;
+}
+
+.nav-item:hover {
+    background-color: #000000;
+    .nav-link {
+        color: #ffffff !important;
+    }
+}
+
+.nav-active-item {
+   border: 1px solid #808080;
+}
+
+nav {
+    border-bottom: 1.5px solid #808080;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 0px 15px !important;
+}

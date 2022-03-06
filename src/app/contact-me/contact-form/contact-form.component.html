@@ -1,0 +1,37 @@
+<fieldset class="border p-2">
+    <legend class="w-auto m-auto">Get in touch with me</legend>
+    <form [formGroup]="contactForm"  (ngSubmit)="submit()" autocomplete="off">
+
+        <input class="project-name" name="project-name" type="text" placeholder="Your Project title" 
+               formControlName="projectTitle" required>
+        <div *ngIf="fc.projectTitle.touched && fc.projectTitle.invalid" class="alert alert-danger">
+            <div *ngIf="fc.projectTitle.errors.required">Project Title is required.</div>
+        </div>
+
+        <input class="full-name" name="full-name" type="text" placeholder="Your Full name" 
+               formControlName="fullName" required>
+        <div *ngIf="fc.fullName.touched && fc.fullName.invalid" class="alert alert-danger">
+            <div *ngIf="fc.fullName.errors.required">Full Name is required.</div>
+        </div>
+
+        <input class="email-address" name="email-address" type="email" placeholder="Your Email Address" 
+               formControlName="emailAddress" required>
+        <div *ngIf="fc.emailAddress.touched && fc.emailAddress.invalid" class="alert alert-danger">
+            <div *ngIf="fc.emailAddress.errors.required">Email address is required.</div>
+            <div *ngIf="fc.emailAddress.errors?.email">Email is not valid.</div>
+        </div>
+    
+        <input class="contact-number" name="contact-number" type="text" 
+                placeholder="Your contact number" 
+               formControlName="phoneNumber" required>
+        <div *ngIf="fc.phoneNumber.touched && fc.phoneNumber.invalid" class="alert alert-danger">
+            <div *ngIf="fc.phoneNumber.errors.required">Your Phone number is required.</div>
+        </div>
+
+        <input id="_submit-button" type="submit" value="Send">
+
+        <!-- <p>
+            Form Status: {{ contactForm.status }}
+        </p> -->
+    </form>
+</fieldset>

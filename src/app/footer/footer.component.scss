@@ -1,0 +1,24 @@
+._social-icons {
+    padding: 0px 40px;
+    display: inline-block;
+}
+
+._social-icons a img {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+._social-icon {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+._social-icon:hover {
+    -webkit-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    -moz-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    border-radius: 50%;
+}

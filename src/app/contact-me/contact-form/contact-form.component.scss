@@ -1,0 +1,30 @@
+fieldset {
+    border-width: 3px !important;
+}
+
+legend {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+form input {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#_submit-button {
+    border: 1 px solid #000000 !important;
+    color: #ffffff;
+    background-color: #000000;
+    height: 43px;
+}
