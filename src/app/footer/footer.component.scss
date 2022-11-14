@@ -4,21 +4,21 @@
 }
 
 ._social-icons a img {
-    width: 70%;
-    height: 70%;
+    width: 25px;
+    height: 25px;
     margin: auto;
 }
 
 ._social-icon {
     display: inline-flex;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     margin: 5px;
 }
 
 ._social-icon:hover {
-    -webkit-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
-    -moz-box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
-    box-shadow: 6px 6px 24px -6px rgb(80, 77, 77);
+    -webkit-box-shadow: 6px 6px 24px -6px #000000;
+    -moz-box-shadow: 6px 6px 24px -6px #000000;
+    box-shadow: 6px 6px 24px -6px #000000;
     border-radius: 50%;
 }

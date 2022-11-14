@@ -1,5 +1,6 @@
 .row {
   height: 100%;
+  margin-top: 35px;
 }
 
 .progress
@@ -7,4 +8,14 @@
    height: 30px;
    margin: 30px;
    border: 1px solid #808080; 
+}
+
+.introduction-content {
+  font-size: 22px;
+}
+
+img {
+  height: 300px;
+  width: 280px;
+  border: 5px dotted lightgrey;
 }
